@@ -1,3 +1,18 @@
 theme: jekyll-theme-slate
-title: ProgramFiction
-description: By Ramakrushna Mishra Repository is about my learnings.
+title: ProgramFiction | Ram
+author: Ramakrushna Mishra
+description: 
+About Me: "Repository is about my learnings."
+  Resources:
+  Author's home: "https://programfiction.github.io/"
+  
+avatar: "/logo.gif"
+
+social-network-links:
+  email: "ramakrushna@live.com"
+  facebook: ram2mishra
+  github: programfiction
+  twitter: ram2mishra
+  youtube: c/programfiction
+  linkedin: iamramakrushna
+  medium: progamfiction
