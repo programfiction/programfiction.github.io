@@ -1,11 +1,8 @@
 theme: jekyll-theme-slate
 title: "ProgramFiction | Ram"
 author: "Ramakrushna Mishra"
-description: 
-About Me: "Repository is about my learnings."
-  Resources:
-  Author's home: "https://programfiction.github.io/"
-  
+description: Repository is about my learnings.
+
 avatar: "/logo.gif"
 
 social-network-links:
@@ -18,5 +15,3 @@ social-network-links:
   medium: "programfiction"
 
 google_analytics: "G-P51R3J7ZY5"
-
-gtag: "G-P51R3J7ZY5"
