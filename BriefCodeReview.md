@@ -1,0 +1,50 @@
+## Team Responsibility:
+-	A solution/ project should compile well without error or warning. 
+-	A program or a snippet is not complete, without developer-tested and unit tests cases.	
+-	A complete documentation also crucial for a solution. 
+-	A snippet is tidy (indentation, line length, no commented-out code, no spelling mistakes, etc).
+-	We have to consider proper use of exceptions handling using Middleware.
+-	We have to impose appropriate use of logging	
+-	Make sure unused imports/usings are removed
+-	The code should follow Coding Standards c#9/latest	
+-	Are there any leftover stubs or test routines in the code?	
+-	Are there any hardcoded, development only things still in the code?	
+-	Solution should be platform independent
+-	Security scan with any standard tool is must. E.g. veracode
+-	Does the code release resources? (web connections, DataBase connection,static files)	
+-	Corner cases well documented or any workaround for a known limitation of the frameworks
+-	Can any code be replaced by calls to external reusable components or library functions?	
+-	Design pattern need to take care of possible deadlocks. Use of CQRS
+
+## Code reviewer pool responsibility:
+-	Reviewer pool should review any code review in place single dev/ architect. 
+-	Do not push empty files to Repository.
+-	Do not push commented ts/js/css/html or any other file to Repository
+-	Try to create small and frequent Pull requests to lower/staging environment in Repository.
+-	Avoid using iFrames as it might create security concern.  In needed talk with architecture team
+-	Each commit should have complete message with some standard across team.
+    - e.g. Fix(Story number): description
+    - e.g. Feature(Story number) : description
+- Pull request/ code reviews should have complete comments related to change with story number starting with below initials 
+	- build: change that effect system or external dependencies added
+	- ci: Changes related CICD 
+	- docs: adding some static documentation to project
+	- feat: implementation of new feature
+	- fix: Is a bug fix
+	- perf: Code review that improves performance of project
+	- refactor: refactoring redundant code
+	- style: adding style to project
+	- test: adding test case to project
+- A code reviewer must make sure comments are comprehensible & neither numerous nor verbose.
+- A code reviewer should find types are generalized where possible & parameterized types are used appropriately.
+- A code reviewer also takes care of exceptions handling are proper or not. Also common error codes should return where needed with standard error format across project.
+- Design should follow SOLID principle & Development standards.
+    - A class should have single responsibility.
+    - Methods should be short and defined appropriately in class using interface.
+    -Repetitive code should be factored out. 
+    - Naming convention should be standardized
+    - Performance was considered during development
+    - Code should not have unjustifiable method and code
+- A code reviewer pool should standardize unit testing and should have a baseline 70~80 % of code coverage.
+- Security concerns have been addressed.
+- Logging implementation is also vital during code review to identify performance & issues.
