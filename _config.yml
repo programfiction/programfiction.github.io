@@ -1,8 +1,8 @@
 theme: jekyll-theme-slate
 title: "ProgramFiction | Ram"
-author: "Ramakrushna Mishra"
 description: Repository is about my learnings.
-avatar: "./dev.gif"
+avatar: ./logo.gif
+
 social-network-links:
   email: "ramakrushna@live.com"
   facebook: "ram2mishra"
@@ -12,4 +12,6 @@ social-network-links:
   linkedin: "iamramakrushna"
   medium: "programfiction"
 
-#google_analytics: "G-P51R3J7ZY5"
+google_analytics: "G-P51R3J7ZY5"
+
+g-tag: G-P51R3J7ZY5
