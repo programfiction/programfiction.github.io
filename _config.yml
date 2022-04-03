@@ -12,6 +12,10 @@ social-network-links:
   linkedin: "iamramakrushna"
   medium: "programfiction"
 
+extra_javascript: 
+    gtag.js
+google-site-verification: googlecbe8af599f7667a8.html
+
 google_analytics: "G-P51R3J7ZY5"
 
 g-tag: G-P51R3J7ZY5
